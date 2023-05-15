@@ -7,6 +7,12 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
+  public invalidInput = false;
+
   constructor() {}
+
+  public toggleInputValidity() {
+    this.invalidInput = !this.invalidInput;
+  }
 
 }
