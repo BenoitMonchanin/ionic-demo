@@ -1,0 +1,7 @@
+{
+  "name": "ion-modal_navigation",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
